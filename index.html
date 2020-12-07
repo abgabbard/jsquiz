@@ -10,18 +10,20 @@
 <body>
     <div class="container">
         <div id="question-container" class="hide">
-            <div id="question">Do You Love JavaScript</div>
+            <div id="question">Question:</div>
             <div id="answer-buttons" class="btn-grid">
-                <button class="btn">Yes</button>
-                <button class="btn">No</button>
-                <button class="btn">Maybe</button>
-                <button class="btn">Not Sure</button>
+                <button id="btn-a" class="btn"></button>
+                <button id="btn-b" class="btn"></button>
+                <button id="btn-c" class="btn"></button>
+                <button id="btn-d" class="btn"></button>
             </div>
         </div>
         <div class="controls">
             <button id="start-btn" class="start-btn btn">Start</button>
             <button id="check-btn" class="check-btn btn hide">Check Answer</button>
         </div>
+        <div id="scoreCount" class = "hide">Score:</div>
+        <div id="timeLeft" class = "hide">Time Left:</div>
     </div>
 </body>
 </html>
