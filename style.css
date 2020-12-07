@@ -20,3 +20,17 @@ body {
     padding: 10px;
     box-shadow: 0 0 10px 2px;
 }
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
