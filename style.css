@@ -10,6 +10,7 @@ body {
     width: 100vw;
     height: 100vh;
     align-items: center;
+    justify-content: center;
 }
 
 .container {
@@ -24,13 +25,36 @@ body {
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    gap: 5px;
+    gap: 25px;
     margin: 20px 0;
 }
 
 .btn {
-    background-color: teal;
-    color: white;
+    background-color: lightblue;
+    color: rgb(119, 37, 37);
     border-radius: 5px;
     padding: 5px 10px;
+}
+
+.btn.correct {
+    color: lightskyblue;
+}
+
+.btn.wrong {
+    color: red;
+}
+
+.start-btn, .check-btn {
+    font-size: 25px;
+    padding: 20px 30px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+
+}
+
+.hide {
+    display: none;
 }
