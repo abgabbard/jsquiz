@@ -19,13 +19,30 @@
             </div>
         </div>
         <div class="controls">
-            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="start-btn" class="start-btn btn">This is a JavaScript Quiz. <p></p>
+                All Questions are multiple choice. 
+                <p></p>
+                You will receive 10 points for every question you answer correctly.
+                <p></p>
+                <p class="warning">Warning:</p> For every question you answer incorrectly; 10 seconds will be deducted from your remaining time.
+                <p></p>
+                At the end of the quiz record your initials so you can track your high scores!
+                <p></p>
+                Click anywhere inside this screen to begin!</button>
+
             <button id="check-btn" class="check-btn btn hide">Check Answer</button>
         </div>
-        <div id="scoreCount" class = "hide">Score: </div>
+        <div id="userScore" class = "hide">Score: </div>
         <div id="timeLeft" class = "hide">Time Left: 
             <span id="countdown">180</span> second<span id="plural">s</span>
         </div>
     </div>
-</body>
+    <style>
+        p {
+          color: red;
+          font-family: courier;
+          font-size: 160%;
+        }
+        </style>
+</body> 
 </html>
